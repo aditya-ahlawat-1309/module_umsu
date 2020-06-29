@@ -1,0 +1,200 @@
+header {
+	
+	background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg) ;
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 175px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 2px solid black;
+}
+
+header a {
+	text-decoration: none;
+	font-size: 30px;
+	margin-right: 25px;
+	margin-left: 100px;
+	margin-top: 9px;
+	background-color: #fff;
+	color: #0ABAB5;
+	width: 179px;
+
+    text-align: center;
+	display: inline-block;
+}
+
+
+	/* unvisited link */
+a:link , a:visited{
+  color: solid black;
+  opacity: .3;
+  background-color: #fff;
+}
+
+/* visited link 
+
+a:visited {
+  color: blue;
+  opacity: 1;
+  background-color:#fff; 
+
+}*/
+
+
+/* mouse over link */
+a:hover ,a:active {
+  color: black;
+  opacity: 1;
+  background-color: #fff;
+}
+
+/* selected link 
+a:active {
+  color: purple;
+  opacity: 1;
+  background-color: #fff;
+
+}*/
+
+
+h1{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.right {
+	margin-right: 20px;
+	color: solid black;
+}
+
+section h2 {
+	color: #000;
+	text-transform: uppercase;
+	text-align: left;
+    
+
+}
+main img {
+	display: block;
+	width: 200px;
+	height: 120px;
+    border : 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+}
+
+.left{
+	width: 300px;
+	height: 100vh;
+	background-color: 	#006400;
+	float: left;
+	margin-right: 30px;
+	margin-left: 20px;
+	margin-top: 0;
+	display: inline-block;
+}
+
+
+
+
+
+.current{
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*Set the table color, border, and spacing...*/
+table.cal{
+	color:#fff;
+	border-spacing: 0;
+	
+	background-color: 	#fff;
+	width: 100vh;
+	display: inline-block;
+}
+
+tr:nth-child(odd) {
+	background: 	#90EE90;
+	width: 100vh;
+	
+    
+	opacity: .8;
+}
+tr:nth-child(even) {
+	background: 	#90EE90;
+	width: 100vh;
+	
+	opacity: .5;
+ 
+}
+
+/*Format common heading and element attributes*/
+.cal th {
+	align-content: center;
+	color: #fff;
+	width: 250px;
+		margin: 2px;
+	padding-bottom: 2px;
+}
+
+.cal td {
+	
+	color: black;
+	width: 250px;
+		margin: 2px;
+	padding-bottom: 2px;
+}
+
+
+/*Format the table headings*/
+th{
+	text-align: center;
+	background: 	#006400;
+	
+}
+
+/*Set the size and alignment for elements*/
+.cal td{
+	width:75px;
+	height:10px;
+	/*vertical-align:top;*/
+
+}
+
+.cal tr:hover{
+	opacity: 1;
+	text-align: center;
+	font-size: 120%;
+}
+
+table.cal {
+  border-collapse: collapse;
+}
+
+.cal th,.cal td {
+  text-align: center;
+  padding: 8px;
+}
+
+table , td, th {
+	padding: 2%;
+}
+
+
+
+
+
+
+
+
